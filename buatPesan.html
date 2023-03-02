@@ -11,7 +11,6 @@
     <div class="container">
       <center>
       <form id="form" method="post">
-       <span id="waktu">0</span>
        <input type="text", id="pesan" required placeholder="Pesan"/></br>
        <input type="text", id="untuk" required placeholder="Untuk"/></br>
        <input type="submit" value="Add" id="submit"/>
@@ -54,13 +53,7 @@
         $('#form').on('submit', function(){
             alert('Pesan Sudah Terkirim!');
             this.reset();
-            var sisawaktu = $("#waktu").html();
-					sisawaktu = eval(sisawaktu);
-					if (sisawaktu == 0) {
-						location.href = "home.html";
-					} else {
-						$("#waktu").html(sisawaktu - 1);
-					}
+						location.href = "index.html";				
         });
     });
   </script>
