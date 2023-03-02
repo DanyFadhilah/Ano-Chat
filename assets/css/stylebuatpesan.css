@@ -35,3 +35,12 @@ input{
 #submit:hover{
   background-color: burlywood;
 }
+
+#spam{
+visibility: hidden;
+display:none
+}
+
+span{
+  display: none;
+}
