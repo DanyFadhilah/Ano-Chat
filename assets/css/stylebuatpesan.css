@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'asdas';
+  src: url(../font/kinkee.TTF);
+}
+
+*{
+  background-color: purple;
+  margin: 0 auto;
+}
+
+body{
+  margin-top: 15%;
+}
+
+.container{
+  max-width: 1080px;
+}
+
+input{
+  background-color: aliceblue;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 10px;
+  border: none;
+  width: 46.3%;
+}
+
+#submit{
+  background-color: sandybrown;
+  color: white;
+  cursor: pointer;
+  width: 50%;
+}
+
+#submit:hover{
+  background-color: burlywood;
+}

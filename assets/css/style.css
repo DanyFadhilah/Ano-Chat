@@ -1,0 +1,96 @@
+/* @font-face {
+    font-family: Judul;
+    src: url(/Pertemuan 5/anno chat/assets/font/);
+} */
+
+@font-face {
+  font-family: 'asdas';
+  src: url(../font/kinkee.TTF);
+}
+
+*{
+  background-color: purple;
+  margin: 0 auto;
+}
+
+.container{
+  max-width: 1080px;
+}
+
+h1 {
+  margin-top: 30px;
+  font-family: asdas;
+  text-align: center;
+  font-size: 42px;
+  color: pink;
+}
+
+.buat_pesan{
+  width: 120px;
+  height: 45px;
+  background-color: sandybrown;
+  border: 1px solid sandybrown;
+  border-radius: 5px;
+  color: white;
+  float: right;
+  font-family: asdas;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.buat_pesan:hover{
+  background-color: burlywood;
+}
+
+#pesan{
+  float: left;
+}
+
+#pesan p{
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  height: 10%;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 20%;
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+#card{
+  width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+  /* For tablets: */
+  #pesan p{
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  #pesan p{
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  #pesan p{
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  /* For tablets: */
+  #pesan p{
+    width: 20%;
+  }
+}
